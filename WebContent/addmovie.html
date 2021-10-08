@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add movie</title>
+<style>
+
+body{
+
+background-color: aqua;
+}
+
+
+</style>
+
+</head>
+<body>
+ 	
+ 	<h1 align=center> <b>!! Book Karoo Bhai !!</b></h1><hr>
+ 	<center>
+ 	<a href="superadminhome.html">Home</a>&nbsp;&nbsp;&nbsp;
+ 	<a href="addtheatres.html">Add Theatres</a>&nbsp;&nbsp;&nbsp;
+ 	<a href="addtmanager.html">Add Managers</a>&nbsp;&nbsp;&nbsp;
+ 	<a href="addmovie.html">Add Movies</a>&nbsp;&nbsp;&nbsp;
+ 	<a href="viewcustomers">View Customers</a>&nbsp;&nbsp;&nbsp;
+ 	<a href="superadminlogin.html">log out</a>&nbsp;&nbsp;&nbsp;
+ 	
+ 	<h2 align=center>Add Movie!</h2>
+	
+	
+	
+	<form method="post" action="addmovie">
+	
+	<fieldset style="width: 500px;height :350px">
+	<table align=center>
+
+		<tr>
+		<td> <input type="text" name="moviename" placeholder="Movie Name" required></td>
+		</tr>
+		
+		
+		<tr>
+		<td><b>Language :</b>
+		<select name="language" required multiple>
+		<option value="TELUGU">TELUGU</option>
+		<option value="ENGLISH">ENGLISH</option>
+		<option value="HINDI">HINDI</option>
+		
+		
+		</select>
+		</td>
+		</tr>
+		
+		
+		
+		<tr>
+		<td> 
+		
+		<b>Genre:</b>
+		<select name="genre" required>
+		<option value="">--select--</option>
+		<option value="THRILLER">THRILLER</option>
+		<option value="ACTION">ACTION</option>
+		<option value="COMEDY">COMEDY</option>
+		
+		
+		</select>
+		
+		</td>
+		</tr>
+
+		<tr>
+		<td> <input type="text" name="director" placeholder="Director" required></td>
+		</tr>
+		
+		<tr>
+		<td> <input type="text" name="producer" placeholder="Producer" required></td>
+		</tr>
+		
+		
+		<tr>
+		<td>
+		<textarea rows="2" cols="20" name="cast" placeholder=" Provide cast" required></textarea>
+		</td>
+		</tr>
+		
+		<tr>
+		<td> <b>Release Date :</b><input type="date" name="rdate" placeholder="Release date" required></td>
+		</tr>
+		
+		<tr>
+		<td> 
+		
+		<b>Censor Board Rating:</b>
+		<select name="cbrating" required>
+		<option value="">--select--</option>
+		<option value="U">U</option>
+		<option value="U/A">U/A</option>
+		<option value="COMEDY">A</option>
+		
+		
+		</select>
+		
+		</td>
+		</tr>
+		
+		<tr>		
+		<td align=center> <input type="submit" value="Add" ></td>
+		</tr>
+	
+	
+	</table>	
+	
+	
+	</fieldset>
+	</form>
+	</center>
+</body>
+</html>
