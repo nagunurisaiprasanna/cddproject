@@ -19,4 +19,3 @@ steps:
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
     
-    tasks: 'build'
