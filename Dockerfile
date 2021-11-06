@@ -1,4 +1,3 @@
-FROM openjdk:11
-EXPOSE 8082
-ADD target/cdd_project.jar cdd_project.jar
-ENTRYPOINT ["java","-jar","/cdd_project.jar"]
+FROM bitnami/tomcat:latest
+
+COPY docker-java-sample-webapp-1.0-SNAPSHOT.war /bitnami/tomcat/data/
