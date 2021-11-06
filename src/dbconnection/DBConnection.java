@@ -29,8 +29,5 @@ public class DBConnection {
 	 {
 	 DBConnection dbconn = new DBConnection();
 	 dbconn.getConnection();
-	 }
-
- 
-	
+	 }	
 }
