@@ -1,3 +1,3 @@
-FROM bitnami/tomcat:latest
-
-COPY docker-java-sample-webapp-1.0-SNAPSHOT.war /bitnami/tomcat/data/
+FROM openjdk:11
+COPY . /cdd_project/WebContent/index.html
+Run http://localhost:7000/Servelt_Skill_4/index.html
